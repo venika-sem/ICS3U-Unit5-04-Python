@@ -23,8 +23,8 @@ def main():
     height_from_user = input("Enter the height of the cylinder (cm): ")
 
     try:
-        radius_from_user = int(radius_from_user)
-        height_from_user = int(height_from_user)
+        radius_from_user = float(radius_from_user)
+        height_from_user = float(height_from_user)
         # Call function
         final_volume = cylinder_volume_calculation(radius_from_user, height_from_user)
         print(
